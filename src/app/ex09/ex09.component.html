@@ -1,0 +1,25 @@
+<h1>Exercice 9</h1>
+<h2>*ngFor - Classes</h2>
+<p><b>Employees:</b></p>
+
+<label for="opciones">Como quieres ordenarlos</label>
+<select id="opciones" [(ngModel)]="selectedOption" (change)="ordenar()" >
+  <option value="name">Name</option>
+  <option value="salary">Salary</option>
+  <option value="position">Position</option>
+  <option value="yearsWorking">YearsWorking</option>
+</select>
+
+
+<table class="table-bordered table-hover">
+  <tr>
+    <th>Name</th><th>Position</th><th>Salary</th><th>YearsWorking</th>
+  </tr>
+  <tr *ngFor="let e of employee">
+    <td>{{ e.name }}</td>
+    <td>{{ e.position }}</td>
+    <td>{{ e.salary }}</td>
+    <td>{{ e.yearsWorking }}</td>
+  </tr>
+</table>
+

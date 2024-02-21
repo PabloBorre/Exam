@@ -1,0 +1,6 @@
+export interface Employee {
+  name: string;
+  salary: number;
+  position: number;
+  yearsWorking: number;
+}

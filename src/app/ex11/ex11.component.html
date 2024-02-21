@@ -1,0 +1,25 @@
+<h1>Exam</h1>
+
+<section class="listing-apply">
+  <h2 class="section-heading">Register of employees</h2>
+  <form [formGroup]="applyForm" (submit)="submitApplication()">
+    <label for="name">Name </label>
+    <input id="name" type="text" formControlName="name">
+    <br>
+    <br>
+    <label for="position">Position </label>
+    <input id="position" type="number" formControlName="position">
+    <br>
+    <br>
+    <label for="salary">Salary </label>
+    <input id="salary" type="number" formControlName="salary">
+    <br>
+    <br>
+    <label for="yearsWorking">Years Working </label>
+    <input id="yearsWorking" type="number" formControlName="yearsWorking">
+    <br>
+    <br>
+    <button type="submit" class="primary" >Apply now</button>
+  </form>
+</section>
+

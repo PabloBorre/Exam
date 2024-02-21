@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Pablo",
+    "salary": 100,
+    "position": 1,
+    "yearsWorking": 3
+  },
+  {
+    "name": "Adrian",
+    "salary": 10,
+    "position": 2,
+    "yearsWorking": 6
+  },
+  {
+    "name": "Miguel",
+    "salary": 1006,
+    "position": 3,
+    "yearsWorking": 2
+  },
+  {
+    "name": "Emiliano",
+    "salary": 10077,
+    "position": 4,
+    "yearsWorking": 0
+  },
+  {
+    "name": "Roberto",
+    "salary": 1005,
+    "position": 5,
+    "yearsWorking": 10
+  }
+]
